@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Eventos inline</title>
+    </head>
+    <body>
+        <div id="app">
+            <button onclick="mostraAlerta()">Me pressione</button>
+            <button onmouseover="mostraAlerta()">Me pressione2</button>
+            <input onkeypress="mostraAlerta()"/>
+        </div>
+
+        <script>
+            function mostraAlerta() {
+                alert('Botão foi clicado');
+                console.log('Botao clicado');
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Trabalhando com o DOM</title>
+    </head>
+    <body>
+        <div id="app">
+            <input type="text" name="nome" id="nome" class="nome"/>
+            <button class="botao">Adicionar</button>
+        </div>
+
+        <script>
+            var inputElement1 = document.getElementById('nome');
+            var inputElement2 = document.getElementsByTagName('input')[0];
+            var inputElement3 = document.getElementsByTagName('input')[0];            
+
+            console.log(inputElement1);
+            console.log(inputElement2);
+            console.log(inputElement3);
+
+            var inputElement4 = document.querySelector('input[name=nome]');
+            var inputElement5 = document.querySelectorAll('input');
+
+            var inputElementNovo = document.querySelector('input[name=nome]');
+            var btnElementNovo = document.querySelector('button.botao');
+
+            btnElementNovo.onclick = function(){
+                var text = inputElementNovo.value;
+                alert(text);
+            }
+            console.log(inputElement4);
+        </script>
+    </body>
+</html>
