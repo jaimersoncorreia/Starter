@@ -1,7 +1,7 @@
 const minhaPromise = () =>
     new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve("ok");
+            resolve("OK!");
         }, 2000);
     });
 
