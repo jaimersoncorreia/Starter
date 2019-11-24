@@ -1,0 +1,10 @@
+yarn add express
+yarn add nodemon -D
+yarn add mongoose
+yarn add require-dir
+yarn add mongoose-paginate
+yarn add cors
+
+
+docker run  --name mongodb -p 27017:27017 -d mongo 
+docker ps -a
