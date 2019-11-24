@@ -1,9 +1,4 @@
 curso-es6/node_modules/
 app/node_modules/
 
-node-api
-#node-api/node_modules/
-
-#node-api/package.json
-#yarn.lock
-#LICENSE
+node-api/node_modules/
